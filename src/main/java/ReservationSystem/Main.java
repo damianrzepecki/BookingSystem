@@ -38,5 +38,7 @@ public class Main {
         reservationSystem.addClientToAdminSlot(1,1,2019,3,18,9);
         reservationSystem.getReservationSystemMap();
         System.out.println("========================");
+        clientControl.showAllClients();
     }
+
 }

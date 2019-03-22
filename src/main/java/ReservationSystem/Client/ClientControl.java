@@ -46,4 +46,11 @@ public class ClientControl {
         }
         return null;
     }
+
+    /**
+     * Method created to check if createNewClient creates new clients
+     */
+    public List<Client> getClientList() {
+        return clientList;
+    }
 }
